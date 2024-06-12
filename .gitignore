@@ -1,0 +1,15 @@
+/checkpoints
+/data
+/static*
+/results
+/runs
+/exp/__pycache__
+/exp/checkpoints
+/exp/runs
+/models/__pycache__
+/models/checkpoints
+/photovoltaic-py/backend_data/*
+/utils/__pycache__
+/.vscode
+/__pycache__
+
