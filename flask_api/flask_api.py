@@ -148,7 +148,7 @@ def demand():
         'pred_demand': pred_demand_list
     })
 
-
+# TODO: 缺失值补全（随机一个区间，表示该区间缺失），异常值(超过阈值，就认为是缺失值)处理
 @app.route('/electricity', methods=['POST'])
 def electricity():
     api_name = 'electricity'
